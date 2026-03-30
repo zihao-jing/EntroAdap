@@ -1,5 +1,5 @@
-| Structure source  |   PF |   FD |   CA |   DM |   IE | Average |
-| ----------------- | ---: | ---: | ---: | ---: | ---: | ------: |
-| PDB               |  TBD |  TBD |  TBD |  TBD |  TBD |     TBD |
-| AlphaFold2        |  TBD |  TBD |  TBD |  TBD |  TBD |     TBD |
-| Delta (PDB - AF2) |  TBD |  TBD |  TBD |  TBD |  TBD |     TBD |
+| Structure source     | PF    | FD    | CA    | DM    | Average |
+|----------------------|-------|-------|-------|-------|---------|
+| PDB                  | 0.486 | 0.520 | 0.551 | 0.495 | 0.513   |
+| AlphaFold2           | 0.481 | 0.498 | 0.577 | 0.448 | 0.501   |
+| Delta (PDB - AF2)    | 0.005 | 0.022 | -0.027| 0.047 | 0.012   |
