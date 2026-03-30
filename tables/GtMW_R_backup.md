@@ -1,0 +1,6 @@
+| Location        | Revised integrated sentence                                  |
+| --------------- | ------------------------------------------------------------ |
+| End of Sec. 4.3 | “These cross-backbone gains support Challenge 2 by showing that explicit geometry grounding improves structure-conditioned answer quality beyond sequence-only inputs.” |
+| End of Sec. 4.4 | “Across modalities, these results indicate that explicit geometric grounding, rather than sequence-only conditioning, is a main driver of the observed gains, directly addressing Challenge 2.” |
+| End of Sec. 4.5 | “These scaling and token-efficiency results directly address Challenge 1 by showing that adaptive patching preserves performance while keeping structural-token growth well below fixed or sequence-centric baselines as entity size increases.” |
+| End of Sec. 4.7 | “The reduced hallucination rate directly supports Challenge 2 by showing that geometry-grounded tokens improve answer faithfulness under comparable task settings.” |
