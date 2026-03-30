@@ -1,10 +1,7 @@
+> Table R4. Structure-source analysis on the GEO-AT protein tasks. ROUGE-L is reported for protein function (PF), functional description (FD), catalytic activity (CA), and domain or motif prediction (DM).
 
-| Max injected structural tokens | Molecule | Protein | DNA&RNA | Average | Avg. Drop |
-| ------------------------------ | -------- | ------- | ------- | ------- | --------- |
-| 2048                           | 0.875    | 0.896   | 0.816   | 0.862   | 0.00%     |
-| 4096                           | 0.875    | 0.897   | 0.806   | 0.859   | 0.29%     |
-| 1024                           | 0.875    | 0.798   | 0.750   | 0.808   | 5.45%     |
-| 512                            | 0.853    | 0.776   | 0.748   | 0.792   | 6.98%     |
-| 256                            | 0.842    | 0.659   | 0.693   | 0.731   | 13.08%    |
-
-
+| Structure source     | PF        | FD        | CA        | DM        | Average   |
+|----------------------|-----------|-----------|-----------|-----------|-----------|
+| PDB                  | **0.486** | **0.520** | 0.551     | **0.495** | **0.513** |
+| AlphaFold2           | 0.481     | 0.498     | **0.577** | 0.448     | 0.501     |
+| Delta (PDB - AF2)    | 0.005     | 0.022     | -0.027    | 0.047     | 0.012     |

@@ -1,0 +1,6 @@
+> Table 6 (subset). Ablation of the geometry-grounding adapter on GEO-AT. METEOR and BERTScore are reported by modality and as overall averages.
+
+| Variant                                   | Molecule METEOR↑ | Molecule BERTScore↑ | Protein METEOR↑ | Protein BERTScore↑ | DNA&RNA METEOR↑ | DNA&RNA BERTScore↑ | Average METEOR↑ | Average BERTScore↑ |
+| ----------------------------------------- | ---------------: | ------------------: | --------------: | -----------------: | --------------: | -----------------: | --------------: | -----------------: |
+| Cuttlefish                                |        **0.391** |           **0.875** |       **0.417** |          **0.896** |       **0.466** |          **0.842** |       **0.425** |          **0.871** |
+| Direct projection (replace fusion blocks) |            0.310 |               0.796 |           0.342 |              0.815 |           0.355 |              0.678 |           0.336 |              0.763 |

@@ -1,6 +1,8 @@
-| AF2 confidence bin (pLDDT) | PF    | FD    | CA    | DM    | Average |
-|----------------------------|-------|-------|-------|-------|---------|
-| >= 90                      | 0.486 | 0.520 | 0.551 | 0.495 | 0.513   |
-| 80-90                      | 0.479 | 0.491 | 0.576 | 0.537 | 0.521   |
-| 70-80                      | 0.434 | 0.439 | 0.552 | 0.458 | 0.471   |
-| < 70                       | 0.354 | 0.394 | 0.461 | 0.364 | 0.393   |
+> Table R7. Missing-structure analysis on GEO-AT. BERTScore is reported with the overall average.
+
+| Variant                                         | Molecule | Protein | DNA   | RNA   | Average |
+|-------------------------------------------------|----------|---------|-------|-------|---------|
+| Base LLM (no tuning)                            | 0.778    | 0.742   | 0.658 | 0.646 | 0.706   |
+| Sequence-only fine-tuning                       | 0.752    | 0.820   | 0.710 | 0.698 | 0.745   |
+| Structure-trained, structure removed at inference | 0.867  | 0.788   | 0.730 | 0.860 | 0.811   |
+| Full Cuttlefish (structure available at inference) | **0.875** | **0.896** | **0.816** | **0.868** | **0.864** |

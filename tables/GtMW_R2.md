@@ -1,3 +1,5 @@
+>Table R2. Structural token-usage comparison by entity size on GEO-AT. Variants include sequence-only, fixed-token Q-Former, sequence-exposed structural-token, and Cuttlefish, reporting the atom-count range and the corresponding structural token-usage range for each method.
+
 | Model                  | Token policy                       | Atom-count range | Token-usage range |
 | ---------------------- | ---------------------------------- | ---------------- | ----------------- |
 | Sequence-only baseline | No structural tokens               | [1, 256)         | 0                 |

@@ -1,4 +1,6 @@
-> **Cross-Modality Structure-Grounded Description: METEOR↑**
+> Table R1. Same-backbone comparison on GEO-AT using Llama-3.1-8B-Instruct. METEOR and BERTScore are reported by modality and as overall averages.
+
+**METEOR↑**
 
 | Method                     | Backbone              |  Molecule |   Protein |       DNA |       RNA |   Average |
 | -------------------------- | --------------------- | --------: | --------: | --------: | --------: | --------: |
@@ -9,7 +11,7 @@
 
 
 
-> **Cross-Modality Structure-Grounded Description: BERTScore↑**
+**BERTScore↑**
 
 
 | Method                     | Backbone              |  Molecule |   Protein |       DNA |       RNA |   Average |
