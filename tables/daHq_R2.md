@@ -1,7 +1,7 @@
 > Table R2. Results on the reasoning-oriented benchmarks ChemIQ and MolecularIQ. Non-reasoning and reasoning backbones are compared before and after adding Cuttlefish, and relative gains are reported for each benchmark. Metrics are success rate and accuracy (higher is better) for ChemIQ and MolecularIQ, respectively.
 
 
-| Backbone                      | Type          | ChemIQ Base↑ | ChemIQ Cuttlefish (Ours)↑ | Gain       | MolecularIQ Base↑ | MolecularIQ Cuttlefish(Ours)↑ | Gain       |
+| Backbone                      | Type          | ChemIQ Base↑ | ChemIQ Cuttlefish (Ours)↑ | Gain ↑      | MolecularIQ Base↑ | MolecularIQ Cuttlefish(Ours)↑ | Gain ↑       |
 | ----------------------------- | ------------- | ------------ | ------------------------- | ---------- | ----------------- | ----------------------------- | ---------- |
 | Qwen-2.5-7B-Instruct          | Non-reasoning | 0.051        | 0.055                     | 7.84%      | 0.101             | 0.105                         | 3.96%      |
 | Llama-3.1-8B-Instruct         | Non-reasoning | 0.077        | 0.081                     | 5.19%      | 0.077             | 0.081                         | 5.19%      |

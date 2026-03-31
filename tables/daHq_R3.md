@@ -1,6 +1,6 @@
 > Table R3. Prompt-setting ablation on GEO-AT using the same reasoning-capable backbones under non-reasoning and reasoning inference settings. Results are reported as average METEOR and BERTScore (higher is better), together with the relative improvements brought by Cuttlefish under each prompt setting.
 
-| Backbone                    | Prompt setting    | Backbone Avg. METEOR↑ | Backbone Avg. BERT-S↑ | Backbone+Cuttlefish (Ours) Avg. METEOR↑ | Backbone+Cuttlefish (Ours) Avg. BERT-S↑ | Improvement (ΔMETEOR / ΔBERT-S) |
+| Backbone                    | Prompt setting    | Backbone Avg. METEOR↑ | Backbone Avg. BERT-S↑ | Backbone+Cuttlefish (Ours) Avg. METEOR↑ | Backbone+Cuttlefish (Ours) Avg. BERT-S↑ | Improvement (ΔMETEOR / ΔBERT-S) ↑|
 | --------------------------- | ----------------- | -------------------: | -------------------: | ---------------------: | ---------------------: | ------------------------------: |
 | Qwen3-8B                    | Non-reasoning     |                0.051 |                0.634 |                  0.055 |                  0.689 |                   7.84% / 8.68% |
 | Qwen3-8B                    | Reasoning         |                0.107 |                0.674 |              **0.428** |              **0.876** |                300.00% / 29.97% |

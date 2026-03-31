@@ -1,6 +1,6 @@
 >Table R5. Backbone-size ablation on GEO-AT using the Qwen-2.5 family. Results are reported by modality with BERTScore (higher is better) used as the evaluation metric.
 
-| Model Size | Molecule | Protein | DNA&RNA | Average |
+| Model Size | Molecule ↑| Protein ↑| DNA&RNA ↑| Average ↑|
 | ---------- | -------: | ------: | ------: | ------: |
 | 0.5B       |    0.453 |   0.422 |   0.382 |   0.419 |
 | 1.5B       |    0.586 |   0.577 |   0.544 |   0.569 |
