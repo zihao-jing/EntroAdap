@@ -1,4 +1,4 @@
-> Table R4. Structure-source analysis on the GEO-AT protein tasks. ROUGE-L is reported for protein function (PF), functional description (FD), catalytic activity (CA), and domain or motif prediction (DM).
+> Table R4. Structure-source analysis on the GEO-AT protein tasks. ROUGE-L (higher is better) is reported for protein function (PF), functional description (FD), catalytic activity (CA), and domain or motif prediction (DM).
 
 | Structure source     | PF ↑       | FD ↑        | CA ↑        | DM ↑       | Average   |
 |----------------------|-----------|-----------|-----------|-----------|-----------|

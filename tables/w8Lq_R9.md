@@ -1,6 +1,6 @@
-> Table R9. Sensitivity analysis of soft patch growth and adapter-side hyperparameters on GEO-AT. BERTScore (larger is better) on four tasks is reported, together with the overall average.
+> Table R9. Sensitivity analysis of soft patch growth and adapter-side hyperparameters on GEO-AT. BERTScore (higher is better) on four tasks is reported, together with the overall average.
 
-| Knob                        | Setting         | Molecule  | Protein   | DNA&RNA   | Average   |
+| Knob                        | Setting         | Molecule ↑| Protein ↑ | DNA&RNA ↑  | Average ↑|
 |-----------------------------|-----------------|-----------|-----------|-----------|-----------|
 | Assignment temperature τ    | 0.05            | 0.843     | **0.915** | 0.827     | 0.862     |
 | Assignment temperature τ    | 0.10 (default)  | 0.875     | 0.896     | 0.836     | **0.869** |

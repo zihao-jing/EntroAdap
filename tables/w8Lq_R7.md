@@ -1,6 +1,6 @@
-> Table R7. Missing-structure analysis on GEO-AT. BERTScore is reported with the overall average, larger is better.
+> Table R7. Missing-structure analysis on GEO-AT. BERTScore is reported with the overall average, higher is better.
 
-| Variant                                         | Molecule | Protein | DNA   | RNA   | Average |
+| Variant                                         | Molecule ↑ | Protein ↑ | DNA ↑  | RNA ↑  | Average ↑|
 |-------------------------------------------------|----------|---------|-------|-------|---------|
 | Base LLM (no tuning)                            | 0.778    | 0.742   | 0.658 | 0.646 | 0.706   |
 | Sequence-only fine-tuning                       | 0.752    | 0.820   | 0.710 | 0.698 | 0.745   |

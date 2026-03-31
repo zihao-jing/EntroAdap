@@ -1,4 +1,4 @@
-> Table R5. AlphaFold2 confidence analysis on the GEO-AT protein tasks. AlphaFold2-derived structures are stratified by pLDDT confidence bins, and ROUGE-L is reported for protein function (PF), functional description (FD), catalytic activity (CA), and domain or motif prediction (DM), together with the average.
+> Table R5. AlphaFold2 confidence analysis on the GEO-AT protein tasks. AlphaFold2-derived structures are stratified by pLDDT confidence bins, and ROUGE-L (higher is better) is reported for protein function (PF), functional description (FD), catalytic activity (CA), and domain or motif prediction (DM), together with the average.
 
 | AF2 confidence bin (pLDDT) | PF ↑   | FD ↑   | CA ↑   | DM ↑   | Average |
 |----------------------------|-------|-------|-------|-------|---------|

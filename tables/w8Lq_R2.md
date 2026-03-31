@@ -1,11 +1,12 @@
-> Table R2. Sensitivity analysis of the maximum injected structural-token budget on GEO-AT. BertScore is reported, larger is better.
+> Table R2. Sensitivity analysis of the maximum injected structural-token budget on GEO-AT. BertScore is reported, higher is better.
 
-| Max injected structural tokens | Molecule  | Protein   | DNA&RNA   | Average   | Avg. Drop  |
-| ------------------------------ | --------- | --------- | --------- | --------- | ---------- |
-| 2048                           | **0.875** | 0.896     | **0.816** | **0.862** | **0.00%**  |
-| 4096                           | **0.875** | **0.897** | 0.806     | 0.859     | 0.29%      |
-| 1024                           | **0.875** | 0.798     | 0.750     | 0.808     | 5.45%      |
-| 512                            | 0.853     | 0.776     | 0.748     | 0.792     | 6.98%      |
-| 256                            | 0.842     | 0.659     | 0.693     | 0.731     | 13.08%     |
+
+| Max injected structural tokens | Molecule ↑ | Protein ↑  | DNA&RNA ↑  | Average ↑  | Avg. Drop ↓ |
+| ------------------------------ | --------- | --------- | --------- | --------- | --------- |
+| 2048                           | **0.875** | 0.896     | **0.816** | **0.862** | **0.00%** |
+| 4096                           | **0.875** | **0.897** | 0.806     | 0.859     | 0.29%     |
+| 1024                           | **0.875** | 0.798     | 0.750     | 0.808     | 5.45%     |
+| 512                            | 0.853     | 0.776     | 0.748     | 0.792     | 6.98%     |
+| 256                            | 0.842     | 0.659     | 0.693     | 0.731     | 13.08%    |
 
 

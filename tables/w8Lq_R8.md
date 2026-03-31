@@ -1,6 +1,6 @@
-> Table R8. Sensitivity analysis of the anchor-selection hyperparameters on GEO-AT. The table varies the mass threshold ρ and maximum anchor count Kmax in Scaling-Aware Patching, and reports BERTScore (larger is better) on molecule, protein, and DNA&RNA tasks, together with the overall average.
+> Table R8. Sensitivity analysis of the anchor-selection hyperparameters on GEO-AT. The table varies the mass threshold ρ and maximum anchor count Kmax in Scaling-Aware Patching, and reports BERTScore (higher is better) on molecule, protein, and DNA&RNA tasks, together with the overall average.
 
-| Knob              | Setting         | Molecule  | Protein   | DNA&RNA   | Average   |
+| Knob              | Setting         | Molecule ↑| Protein ↑ | DNA&RNA ↑  | Average ↑|
 |-------------------|-----------------|-----------|-----------|-----------|-----------|
 | Mass threshold ρ  | 0.05            | 0.850     | 0.805     | 0.782     | 0.812     |
 | Mass threshold ρ  | 0.10 (default)  | 0.875     | 0.896     | 0.836     | 0.869     |

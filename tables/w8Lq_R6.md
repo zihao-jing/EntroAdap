@@ -1,4 +1,4 @@
-> Table R6. Coordinate-noise robustness analysis on the GEO-AT protein tasks. Isotropic Gaussian noise with different standard deviations is added to the input coordinates, and ROUGE-L is reported for protein function (PF), functional description (FD), catalytic activity (CA), and domain or motif prediction (DM), together with the average.
+> Table R6. Coordinate-noise robustness analysis on the GEO-AT protein tasks. Isotropic Gaussian noise with different standard deviations is added to the input coordinates, and ROUGE-L (higher is better) is reported for protein function (PF), functional description (FD), catalytic activity (CA), and domain or motif prediction (DM), together with the average.
 
 | Coordinate noise (std. in Å) | PF ↑   | FD ↑   | CA ↑   | DM ↑   | Average |
 | ---------------------------- | ----- | ----- | ----- | ----- | ------- |

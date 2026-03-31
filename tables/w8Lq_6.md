@@ -1,4 +1,4 @@
-> Table 6 (subset). Ablation of the geometry-grounding adapter on GEO-AT. METEOR and BERTScore are reported by modality and as overall averages.
+> Table 6 (subset). Ablation of the geometry-grounding adapter on GEO-AT. METEOR and BERTScore (higher is better) are reported by modality and as overall averages.
 
 | Variant                                   | Molecule METEOR↑ | Molecule BERTScore↑ | Protein METEOR↑ | Protein BERTScore↑ | DNA&RNA METEOR↑ | DNA&RNA BERTScore↑ | Average METEOR↑ | Average BERTScore↑ |
 | ----------------------------------------- | ---------------: | ------------------: | --------------: | -----------------: | --------------: | -----------------: | --------------: | -----------------: |

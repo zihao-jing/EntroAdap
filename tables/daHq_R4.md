@@ -1,4 +1,4 @@
-> Table R4. Functional-group grounding evaluation on GEO-AT. Top-1 and Top-3 accuracy are reported.
+> Table R4. Functional-group grounding evaluation on GEO-AT. Top-1 and Top-3 accuracy (higher is better) are reported.
 
 | Method           | Top-1 Acc.↑ | Top-3 Acc.↑ |
 | ---------------- | ---------: | ---------: |
