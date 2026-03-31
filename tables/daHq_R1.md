@@ -1,7 +1,7 @@
 
 > Table R1. Comparison between Cuttlefish and general LLM backbones on GEO-AT under reasoning and non-reasoning settings. Results are reported as average METEOR and BERTScore over the GEO-AT evaluation tasks, with the corresponding absolute improvements over the baseline backbone.
 
-| Backbone                    | Reasoning | Baseline Avg. METEOR | Baseline Avg. BERT-S | Cuttlefish Avg. METEOR | Cuttlefish Avg. BERT-S | Improvement (ΔMETEOR / ΔBERT-S) |
+| Backbone                    | Reasoning | Backbone Avg. METEOR↑ | Backbone Avg. BERT-S↑ | Backbone+Cuttlefish Avg. METEOR↑ | Backbone+Cuttlefish Avg. BERT-S↑ | Improvement (ΔMETEOR / ΔBERT-S) |
 | --------------------------- | --------- | -------------------- | -------------------- | ---------------------- | ---------------------- | ------------------------------- |
 | Qwen-2.5-7B-Instruct        | No        | 0.143                | 0.653                | 0.330                  | 0.840                  | +0.187 / +0.187                 |
 | Mistral-3-8B-Instruct-2512  | No        | 0.172                | 0.683                | 0.310                  | 0.750                  | +0.138 / +0.067                 |

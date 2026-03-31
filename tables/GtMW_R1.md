@@ -1,4 +1,4 @@
-> Table R1. Same-backbone comparison on GEO-AT using Llama-3.1-8B-Instruct. METEOR and BERTScore are reported by modality and as overall averages.
+> Table R1. Same-backbone comparison on GEO-AT using Llama-3.1-8B-Instruct. METEOR and BERTScore are reported (larger is better) by modality and as overall averages.
 
 **METEOR↑**
 

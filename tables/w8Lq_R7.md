@@ -1,4 +1,4 @@
-> Table R7. Missing-structure analysis on GEO-AT. BERTScore is reported with the overall average.
+> Table R7. Missing-structure analysis on GEO-AT. BERTScore is reported with the overall average, larger is better.
 
 | Variant                                         | Molecule | Protein | DNA   | RNA   | Average |
 |-------------------------------------------------|----------|---------|-------|-------|---------|

@@ -1,4 +1,4 @@
-> Table R2. Sensitivity analysis of the maximum injected structural-token budget on GEO-AT. BertScore is reported.
+> Table R2. Sensitivity analysis of the maximum injected structural-token budget on GEO-AT. BertScore is reported, larger is better.
 
 | Max injected structural tokens | Molecule  | Protein   | DNA&RNA   | Average   | Avg. Drop  |
 | ------------------------------ | --------- | --------- | --------- | --------- | ---------- |

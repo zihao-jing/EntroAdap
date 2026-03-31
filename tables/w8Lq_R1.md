@@ -1,4 +1,4 @@
->Table R1. Matched-budget comparison between fixed-length Q-Former connectors and Cuttlefish on GEO-AT. BERTScore is reported, together with the overall average.
+>Table R1. Matched-budget comparison between fixed-length Q-Former connectors and Cuttlefish on GEO-AT. BERTScore is reported (larger is better), together with the overall average.
 
 | Connector  | Token policy               | Molecule  |   Protein | DNA&RNA   |   Average |
 | ---------- | -------------------------- | --------: | --------: | --------: | --------: |
