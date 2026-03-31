@@ -2,7 +2,7 @@
 
 **METEOR↑**
 
-| Method                     | Backbone              |  Molecule |   Protein |       DNA |       RNA |   Average |
+| Method                     | Backbone              |  Molecule ↑ |   Protein ↑ |       DNA ↑|       RNA ↑|   Average ↑|
 | -------------------------- | --------------------- | --------: | --------: | --------: | --------: | --------: |
 | Backbone Only              | Llama-3.1-8B-Instruct |     0.229 |     0.178 |     0.175 |     0.175 |   0.18925 |
 | Mol-Instructions connector | Llama-3.1-8B-Instruct |     0.291 |     0.315 |     0.364 |     0.330 |     0.325 |
@@ -14,7 +14,7 @@
 **BERTScore↑**
 
 
-| Method                     | Backbone              |  Molecule |   Protein |       DNA |       RNA |   Average |
+| Method                     | Backbone              |  Molecule ↑|   Protein ↑|       DNA ↑|       RNA ↑|   Average ↑|
 | -------------------------- | --------------------- | --------: | --------: | --------: | --------: | --------: |
 | Backbone Only              | Llama-3.1-8B-Instruct |     0.778 |     0.742 |     0.658 |     0.646 |     0.706 |
 | Mol-Instructions connector | Llama-3.1-8B-Instruct |     0.789 |     0.789 |     0.786 |     0.738 |     0.775 |
