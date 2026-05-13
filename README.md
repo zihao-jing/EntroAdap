@@ -1,5 +1,7 @@
 ## Cuttlefish: Scaling-Aware Adapter for Structure-Grounded LLM Reasoning
 
+[![Model](https://img.shields.io/badge/🤗%20Model-Cuttlefish-blue)](https://huggingface.co/zihaojing/Cuttlefish) [![Encoder](https://img.shields.io/badge/🤗%20Model-Cuttlefish--Encoder-blue)](https://huggingface.co/zihaojing/Cuttlefish-Encoder) [![SFT Data](https://img.shields.io/badge/🤗%20Dataset-Cuttlefish--SFT--Data-green)](https://huggingface.co/datasets/zihaojing/Cuttlefish-SFT-Data) [![Encoder Data](https://img.shields.io/badge/🤗%20Dataset-Cuttlefish--Encoder--Data-green)](https://huggingface.co/datasets/zihaojing/Cuttlefish-Encoder-Data)
+
 This repo contains the implementation of **Cuttlefish**, a unified all-atom LLM that grounds language reasoning in geometric cues while **scaling structural tokens with structural complexity**.
 
 ![Main architecture](figs/main_arch_01.png)
