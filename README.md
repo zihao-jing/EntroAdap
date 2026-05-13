@@ -1,6 +1,4 @@
-## Cuttlefish (ICML double-blind): Scaling-Aware Adapter for Structure-Grounded LLM Reasoning
-
-**Status**: This repository is **an anonymized artifact under double-blind review at ICML**. Please do not attempt to deanonymize the authors.
+## Cuttlefish: Scaling-Aware Adapter for Structure-Grounded LLM Reasoning
 
 This repo contains the implementation of **Cuttlefish**, a unified all-atom LLM that grounds language reasoning in geometric cues while **scaling structural tokens with structural complexity**.
 
@@ -14,6 +12,73 @@ Large language models (LLMs) are enabling reasoning over biomolecular structures
 
 
 > Note: GitHub Markdown does not reliably render PDFs inline; the PNG above is for inline preview and the PDF link is the high-resolution version.
+
+### Models & Datasets
+
+| Resource | Link |
+|---|---|
+| **Cuttlefish** (full LLM) | [zihaojing/Cuttlefish](https://huggingface.co/zihaojing/Cuttlefish) |
+| **Cuttlefish-Encoder** (graph encoder) | [zihaojing/Cuttlefish-Encoder](https://huggingface.co/zihaojing/Cuttlefish-Encoder) |
+| **Cuttlefish-SFT-Data** (instruction tuning data) | [zihaojing/Cuttlefish-SFT-Data](https://huggingface.co/datasets/zihaojing/Cuttlefish-SFT-Data) |
+| **Cuttlefish-Encoder-Data** (encoder pretraining data) | [zihaojing/Cuttlefish-Encoder-Data](https://huggingface.co/datasets/zihaojing/Cuttlefish-Encoder-Data) |
+
+---
+
+### Quick start
+
+#### Load the model
+
+```python
+# Install dependencies
+# pip install -r requirements.txt
+
+from huggingface_hub import snapshot_download
+from src.models.octopus import OctopusModel  # project model wrapper
+
+# Download the full Cuttlefish model
+local_dir = snapshot_download(repo_id="zihaojing/Cuttlefish")
+
+# Or download just the encoder
+encoder_dir = snapshot_download(repo_id="zihaojing/Cuttlefish-Encoder")
+```
+
+#### Run inference on your own structures
+
+Prepare your input as a `.parquet` file (or `.jsonl`) following the unified schema below, then run:
+
+```bash
+cd /path/to/cuttlefish
+source env.sh
+
+# Edit configs/inference/octopus_8B_s3_v1_5.yaml to point to your checkpoint and input file
+bash scripts/inference/run_inference.sh
+```
+
+Or programmatically:
+
+```python
+from scripts.inference.run_inference_example import run_inference
+
+results = run_inference(
+    checkpoint_path="zihaojing/Cuttlefish",   # HF repo id or local path
+    input_file="your_data.parquet",
+    output_dir="outputs/results.jsonl",
+)
+```
+
+#### Load the datasets
+
+```python
+from datasets import load_dataset
+
+# SFT instruction-tuning data (molecules, proteins)
+sft = load_dataset("zihaojing/Cuttlefish-SFT-Data")
+
+# Encoder pretraining data (molecules, proteins, DNA/RNA)
+enc = load_dataset("zihaojing/Cuttlefish-Encoder-Data")
+```
+
+---
 
 ### What this repo supports
 
@@ -239,13 +304,17 @@ There is also a programmatic example in `scripts/inference/run_inference_example
 
 ### Dataset
 
-**GEO-AT**: dataset used in the paper (release details to be added after the double-blind period).
+The datasets used in this paper are released on HuggingFace:
 
-### Anonymization / safety notes
+- **[Cuttlefish-SFT-Data](https://huggingface.co/datasets/zihaojing/Cuttlefish-SFT-Data)** — instruction-tuning data covering molecules, proteins, DNA, and RNA across diverse reasoning tasks.
+- **[Cuttlefish-Encoder-Data](https://huggingface.co/datasets/zihaojing/Cuttlefish-Encoder-Data)** — masked-reconstruction pretraining data for the all-atom graph encoder.
+
+Both follow the unified parquet schema described above.
+
+### Safety notes
 
 - **Do not commit secrets** (API keys, private paths). Keep any local environment setup scripts untracked.
-- Keep the artifact **anonymized** until the review process is complete.
 
 ### Citation
 
-Citation information will be added after the review process.
+Citation information will be added upon publication.
