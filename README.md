@@ -319,4 +319,12 @@ Both follow the unified parquet schema described above.
 
 ### Citation
 
-Citation information will be added upon publication.
+```bibtex
+@article{jing2026cuttlefish,
+  title     = {Cuttlefish: Scaling-Aware Adapter for Structure-Grounded LLM Reasoning},
+  author    = {Jing, Zihao and Zeng, Qiuhao and Fang, Ruiyi and Li, Yan Yi and Sun, Yan and Wang, Boyu and Hu, Pingzhao},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2602.02780}
+}
+```
